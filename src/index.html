@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon" />
+    <title>Designer Portfolio</title>
+  </head>
+  <body class="bg-cream scroll">
+    <header
+      class="flex items-center justify-between px-3 py-4 sm:px-6 sm:py-6 lg:mx-auto lg:w-4/5"
+    >
+      <img src="./Images/logo.png" alt="site-logo" />
+      <button
+        class="text-cream rounded-full bg-[#030303] px-6 py-3 font-semibold transition-colors hover:bg-[#ea7564] hover:text-[#fffefa] sm:text-lg"
+      >
+        Free Consultation
+      </button>
+    </header>
+    <section class="mt-6 px-3 sm:mt-10 sm:px-6 lg:mx-auto lg:w-4/5">
+      <h1 class="px-1 text-center text-4xl font-bold sm:text-5xl lg:text-6xl">
+        Design solutions made easy
+      </h1>
+      <h3
+        class="mt-4 px-2 text-center text-lg font-semibold text-[#7e7770] sm:mt-8 sm:text-xl"
+      >
+        With over ten years of experience in various design disciplines, I'm
+        your one-stop shop for your design needs.
+      </h3>
+    </section>
+    <section
+      class="mt-6 grid grid-cols-2 gap-4 px-3 sm:mt-12 sm:grid-cols-4 sm:grid-rows-3 sm:px-6 lg:mx-auto lg:w-4/5 lg:grid-cols-6 lg:grid-rows-2"
+    >
+      <img
+        class="col-span-2 row-span-2 h-full w-full"
+        src="./Images/graphics.svg"
+        alt="graphics-img"
+      />
+      <img
+        class="col-span-1 h-full w-full"
+        src="./Images/ui_ux.svg"
+        alt="ui-ux-img"
+      />
+      <img
+        class="col-span-1 h-full w-full"
+        src="./Images/apps.svg"
+        alt="apps-img"
+      />
+      <img
+        class="col-span-2 h-full w-full"
+        src="./Images/illustrations.svg"
+        alt="illustrations-img"
+      />
+      <img
+        class="col-span-2 h-full w-full"
+        src="./Images/photography.svg"
+        alt="photography-img"
+      />
+      <img
+        class="col-span-2 h-full w-full"
+        src="./Images/motion_graphics.svg"
+        alt="motion_graphics-img"
+      />
+    </section>
+    <section
+      class="mt-12 px-3 sm:mt-16 sm:flex sm:items-center sm:px-6 lg:mx-auto lg:w-4/5"
+    >
+      <div class="overflow-clip p-4 sm:basis-1/2 sm:p-0 lg:p-12">
+        <img
+          class="w-full sm:-translate-x-6 lg:translate-x-0"
+          src="./Images/profile.png"
+          alt="profile picture"
+        />
+      </div>
+      <div
+        class="mt-4 flex flex-col items-center gap-6 px-1 sm:mt-0 sm:basis-1/2 sm:items-start"
+      >
+        <h3 class="text-center text-2xl font-bold sm:text-left sm:text-3xl">
+          I'm Amy, and I'd love to work on your next project
+        </h3>
+        <p
+          class="text-center font-semibold text-[#7e7770] sm:text-left sm:text-lg"
+        >
+          I love working with others to create beautiful design solutions. I've
+          designed everything from brand illustrations to complete mobile apps.
+          I'm also handy with a camera!
+        </p>
+        <button
+          class="hover:text-cream rounded-full bg-[#ea7564] px-6 py-3 font-semibold text-[#fffefa] transition-colors hover:bg-[#030303]"
+        >
+          Free Consultation
+        </button>
+      </div>
+    </section>
+    <section class="mt-16 flex flex-col items-center gap-8 sm:mt-20 sm:gap-12">
+      <div><h3 class="text-2xl font-bold sm:text-3xl">My Work</h3></div>
+      <div class="flex overflow-auto scroll-smooth" id="slider">
+        <img
+          class="= ml-[10%] w-4/5 max-w-[500px] rounded-xl transition-opacity hover:opacity-70 sm:ml-[calc((100%-500px)/2)]"
+          src="./Images/slider1.png"
+          alt="work1"
+        />
+        <img
+          class="= ml-[5%] w-4/5 max-w-[500px] rounded-xl transition-opacity hover:opacity-70 sm:ml-[calc((100%-500px)/4)]"
+          src="./Images/slider2.png"
+          alt="work2"
+        />
+        <img
+          class="= ml-[5%] w-4/5 max-w-[500px] rounded-xl transition-opacity hover:opacity-70 sm:ml-[calc((100%-500px)/4)]"
+          src="./Images/slider3.png"
+          alt="work3"
+        />
+        <img
+          class="= ml-[5%] w-4/5 max-w-[500px] rounded-xl transition-opacity hover:opacity-70 sm:ml-[calc((100%-500px)/4)]"
+          src="./Images/slider4.png"
+          alt="work4"
+        />
+        <img
+          class="= ml-[5%] mr-[10%] w-4/5 max-w-[500px] rounded-xl transition-opacity hover:opacity-70 sm:ml-[calc((100%-500px)/4)] sm:mr-[calc((100%-500px)/2)]"
+          src="./Images/slider5.png"
+          alt="work5"
+        />
+      </div>
+      <div class="flex gap-4 sm:gap-8">
+        <button
+          id="slide-left-btn"
+          class="h-12 w-12 rounded-full bg-[#030303] transition-colors hover:bg-[#ea7564] hover:text-[#fffefa] sm:h-16 sm:w-16"
+        >
+          <i class="fa-solid fa-arrow-left text-cream"></i>
+        </button>
+        <button
+          id="slide-right-btn"
+          class="h-12 w-12 rounded-full bg-[#030303] transition-colors hover:bg-[#ea7564] hover:text-[#fffefa] sm:h-16 sm:w-16"
+        >
+          <i class="fa-solid fa-arrow-right text-cream"></i>
+        </button>
+      </div>
+    </section>
+    <section class="mt-16 px-3 sm:mt-20 sm:px-6 lg:mx-auto lg:w-4/5">
+      <div
+        class="text-cream flex flex-col items-center gap-6 rounded-lg bg-[#030303] px-4 py-8 sm:px-8 sm:py-12"
+      >
+        <h3 class="text-2xl font-semibold sm:text-3xl">Book a call with me</h3>
+        <p class="text-center sm:text-lg">
+          I'd love to have as chat to see how I can help you. The best first
+          step is for us to discuss your project during a free consultation.
+          Then we can move forward from there.
+        </p>
+        <button
+          class="rounded-full bg-[#ea7564] px-6 py-3 font-semibold text-[#fffefa] transition-colors sm:text-lg"
+        >
+          Free Consultation
+        </button>
+      </div>
+    </section>
+    <footer
+      class="my-6 flex items-center justify-between px-3 py-4 sm:px-6 sm:py-6 lg:mx-auto lg:w-4/5"
+    >
+      <img src="./Images/logo.png" alt="site-logo" />
+      <button
+        class="text-cream rounded-full bg-[#030303] px-6 py-3 font-semibold transition-colors hover:bg-[#ea7564] hover:text-[#fffefa] sm:text-lg"
+      >
+        Free Consultation
+      </button>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/31a5a1ed80.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
